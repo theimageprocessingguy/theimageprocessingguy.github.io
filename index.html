@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>--Aditya Shankar Pal--</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- include the termynal stylesheet -->
+        <link rel="stylesheet" href="termynal.css">
+        <!-- some custom styles for the page -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Mono">
+        <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' /> 
+		<!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Preface Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+		<!-- webfonts -->
+		<link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- webfonts -->
+		<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+
+        <style>
+            body {
+                padding: 0; margin: 0;
+                background: #1a2024;
+                width: 100%;
+                min-height: 100vh;
+             
+            }
+            button {
+  display: inline-block;
+  position:relative;
+  left:42%;
+  border-radius: 4px;
+  background-color: #00a78e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 20%;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+        </style>
+    </head>
+    <body>
+		<div class="adview container " style="width: 100%;background: #1a2024; ">
+					<div class="logo">
+						<h1><a href="index.html"><span>ASP</span></a></h1>
+					</div>
+					<div class="navigation-right" style="float:right;">
+						<span class="menu"><img src="images/menu.png" alt=" " /></span>
+						<nav class="link-effect-3" id="link-effect-3">
+							<ul class="nav1 nav nav-wil">
+								<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+								<li><a class="scroll" data-hover="About" href="#about">About</a></li>
+								<li><a class="scroll" data-hover="Education" href="#education">Education</a></li>
+								<!--<li><a class="scroll" data-hover="Research" href="#home" >Research</a></li> 
+								<li><a class="scroll" data-hover="Publication" href="#port">Publication</a></li>
+								<li><a class="scroll" data-hover="Accolades" href="#blogs">Accolades</a></li> -->
+								<li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+							<!-- script-for-menu -->
+								<script>
+								   $( "span.menu" ).click(function() {
+									 $( "ul.nav1" ).slideToggle( 300, function() {
+									 // Animation complete.
+									  });
+									 });
+								</script>
+							<!-- /script-for-menu -->
+					</div>
+		</div>
+		<!-- <div class="adicontainer custom borderYtoX">
+			<div class="logo">
+				<h1><a href="index.html"><span>ASP</span></a></h1>
+			</div>
+			<a href="#about">HOME</a>
+			<a href="#articles">ARTICLES</a>
+			<a>PORTFOLIO</a>
+			<a>ABOUT</a>
+			<a>CONTACT</a>
+		</div> -->
+        <!-- the termynal container -->
+        
+        <div id="home" style="width:100%;height:100vh;padding: 75px 0px 0px 0px;">
+        <div id="termynal" data-termynal>
+            <span data-ty="input">wget https://theimageprocessingguy.github.io/</span>
+            <span data-ty>Loading...</span>
+            <span data-ty="progress"></span>
+            <span data-ty>Successfully loaded webpage</span>
+            <span data-ty></span>
+            <span data-ty="input">cd index.html</span>
+            <span data-ty>Welcome to the website!!</span>
+            <span data-ty></span>
+            <span data-ty="keepcursor"></span>
+            <!--<span data-ty="input">python -m spacy download en</span>
+            <span data-ty="progress"></span>
+            <span data-ty>Installed model 'en'</span>
+            <span data-ty></span>
+            <span data-ty="input">python</span>
+            <span data-ty="input" data-ty-prompt=">>>">import spacy</span>
+            <span data-ty="input" data-ty-prompt=">>>" >nlp = spacy.load('en')</span>
+            <span data-ty="input" data-ty-prompt=">>>">doc = nlp(u'Hello world')</span>
+            <span data-ty="input" data-ty-prompt=">>>">print([(w.text, w.pos_) for w in doc])</span>
+            <span data-ty>[('Hello', 'INTJ'), ('world', 'NOUN')]</span> -->
+        </div>
+        <br><br>
+        <button class="button" style="text-align:center;" onClick="window.location='#about';"><span>About Aditya </span></button>
+        </div>
+        
+        <div id="about" class="header" style="width:100%;height:100vh;background-image: url('general_bg.jpg');background-repeat: no-repeat;background-size: 100%;">
+				<div class="container">
+				<!-- top-hedader -->
+					<div class="top-header">
+					<!-- /logo -->
+					<!--top-nav---->
+						<div class="top-nav">
+							<div class="navigation">
+								<div class="clearfix"></div>
+							</div>
+				<!-- /top-hedader -->
+						</div>
+						<div class="banner-info">
+							<div class="col-md-7 header-right">
+								<h1>Computer Vision Enthusiast</h1>
+								<h5><b>Aditya Shankar Pal</b></h5>
+								<h6>AI-NLP-ML Group, Department of Computer Science and Engineering, Indian Institute of Technology Patna</h6>
+								<ul class="address">
+					
+				
+						<li>
+							<ul class="address-text">
+								<li><b>ADDRESS</b></li>
+								<li>12B/20/3A, East Mall Road, Kolkata, WB - 700080</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>PHONE </b></li>
+								<li>+91-7003616317 / +91-8017768802</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>E-MAIL </b></li>
+								<li><a href="mailto:eddie.aditya14@gmail.com"> eddie.aditya14@gmail.com</a>;</li>
+								<li><a href="mailto:aditya.pal@rkmvu.ac.in"> aditya.pal@rkmvu.ac.in</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+					<ul class="social-icons two">
+							<li><a href="https://www.facebook.com/aaditya.spal"></a></li>
+							<li><a href="https://twitter.com/aadityasp001" class="fb"> </a></li>
+							<li><a href="https://github.com/theimageprocessingguy" class="in"> </a></li>
+							<li><a href="https://www.linkedin.com/in/aditya-shankar-pal-133a74161" class="dott"> </a></li>
+							</ul>
+					
+							
+						</div>
+						<div class="col-md-5 header-left">
+							<img src="images/adipic.jpg" alt="">
+						</div>
+					<div class="clearfix"> </div>	
+		      </div>
+			</div>
+		</div>
+	</div>
+        
+        <!-- Education -->
+        <div id="education" class="work" style="width:100%;height:100vh;padding: 75px 0px 0px 0px;background: #fff">
+		<div class="container">
+			<div class="service-head text-center">
+						<h4>WHAT I DID</h4>
+						<h3>MY <span>EXPERIENCE</span></h3>
+						<span class="border one"></span>
+					</div>
+					<div class="time-main w3l-agile">
+							<div class="col-md-6 year-info">
+							   <ul class="year">
+								   <li>2019 - Present</li>
+								   <li>2017 - 2019</li>
+								   <li>2014 - 2017</li>
+								   <div class="clearfix"></div>
+								</ul>
+							</div> 
+					                        <ul class="col-md-6 timeline">
+																<li>
+																  <div class="timeline-badge success"><i class="glyphicon glyphicon-education"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">Research Assistant</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Department of Computer Science and Engineering, Indian Institute of Technology Patna</p>
+																	</div>
+																  </div>
+																</li>
+																
+																<li>
+																  <div class="timeline-badge primary"><i class="glyphicon glyphicon-education"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">Masters of Science</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Department of Computer Science, Ramakrishna Mission Vivekananda Educational and Research Institute, Belur Math </p>
+																	</div>
+																  </div>
+																</li>
+																
+																
+																
+																<li>
+																  <div class="timeline-badge pass"><i class="glyphicon glyphicon-education"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">Bachelor of Science</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Department of Computer Science, Ramakrishna Mission Residential College, Narendrapur </p>
+																	</div>
+																  </div>
+																</li>
+																 <!--
+																<li>
+																  <div class="timeline-badge info"><i class="glyphicon glyphicon-education"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">Higher Secondary</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
+																	</div>
+																  </div>
+																</li>
+																<li>
+																  <div class="timeline-badge danger"><i class="glyphicon glyphicon-education"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">COMPANY NAME</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Lorem ipsum dolor sit amet.Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus </p>
+																	</div>
+																  </div>
+																</li> 
+                                -->
+															</ul>
+								<div class="clearfix"></div>
+								</div>
+						</div>
+				</div>
+				
+				<!-- Contact -->
+				<div class="footer" id="contact" style="background-image: url('gend1.jpeg');background-repeat: no-repeat;background-size: 100%;">
+	<div class="container">
+	<div class="service-head one text-center">
+						<h4>CONTACT ME</h4>
+						<h3>GET <span>IN TOUCH WITH ME</span></h3>
+						<span class="border two"></span>
+					</div>
+		<div class="mail_us">
+			<div class="col-md-6 mail_left">
+				<div class="contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						<h4>Contact By Email</h4>
+						<ul>
+							<li>Mail1: <a href="mailto:eddie.aditya14@gmail.com">eddie.aditya14@gmail.com</a></li>
+							<li>Mail2: <a href="mailto:aditya.pal@rkmvu.ac.in">aditya.pal@rkmvu.ac.in</a></li>
+						</ul>
+					</div>
+				</div>
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+							<h4>Contact By Phone</h4>
+							<ul>
+								<li>Phone: +91-7003616317</li>
+							</ul>
+						</div>
+					</div>
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							<h4>Looking For Address</h4>
+							<ul>
+								<li>Address: 12B/20/3A, East Mall Road, Dumdum</li>
+								<li>Kolkata, India- 700080.</li>
+							</ul>
+						</div>
+					</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-6 mail_right">
+				<form action="#" method="post">
+					<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
+					<textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+					<input type="submit" value="Send">
+					
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="copy_right text-center">
+			 <ul class="social-icons two">
+							<li><a href="#"> </a></li>
+							<li><a href="#" class="fb"> </a></li>
+							<li><a href="#" class="in"> </a></li>
+							<li><a href="#" class="dott"> </a></li>
+						</ul>
+		</div>
+	</div>
+</div>
+  
+        <!-- include and initialise termynal.js -->
+        <script src="termynal.js" data-termynal-container="#termynal"></script>
+        <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+<!-- //for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+
+    </body>
+</html>
