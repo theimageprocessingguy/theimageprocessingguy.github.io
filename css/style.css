@@ -90,7 +90,7 @@ span.menu{
 	margin: 0 12px;
 	color: #797878;
 	text-shadow: none;
-	position: relative;  
+	position: relative;
     font-family: 'Open Sans', sans-serif;
 }
 .link-effect-3 a::before {
@@ -179,7 +179,7 @@ ul.address {
     border-style: solid;
     border-width: 14px 11px 0 12px;
     border-color: #00a78e transparent transparent transparent;
-	
+
 }
 .header-right h6 {
        font-size: 0.9em;
@@ -236,7 +236,7 @@ ul.social-icons{
     display: inline-block;
     margin-right: 1%;
 }
-.social-icons li a{  
+.social-icons li a{
     background: url(../images/icon_adi.png) repeat-x 0px 0px;
     display: block;
     height: 32px;
@@ -256,8 +256,8 @@ ul.social-icons{
 	transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
-	-ms-transform: rotate(45deg); 
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);	
+	-ms-transform: rotate(45deg);
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .social-icons li a.fb{
 	background-position: 0px -30px;
@@ -287,7 +287,7 @@ background-position: 0px -94px;
 	margin:3em 0;
 }
 .note{
-	
+
 }
 .note h1{
 	color:#FFF;
@@ -462,7 +462,7 @@ span.border.one:after {
     font-size:1em;
     line-height: 2em;
     margin-top: 1.5em;
-} 
+}
 .about-left-grid ul{
 	margin:3em 0 0 0;
 	padding:0;
@@ -659,6 +659,7 @@ span.border.one:after {
       top: 0;
     bottom: 0;
     position: absolute;
+    margin-bottom:30px;
     content: " ";
     width: 1px;
     background-color: #ccc;
@@ -751,10 +752,12 @@ h4.timeline-title a:hover {
 }
 
 .timeline-badge.primary {
+  margin-top: 25px;
   background-color: #eb5424 !important;
 }
 
 .timeline-badge.success {
+  margin-top: 22px;
   background-color: #237f52 !important;
 }
 
@@ -766,6 +769,7 @@ h4.timeline-title a:hover {
   background-color: #bb1e10 !important;
 }
 .timeline-badge.pass {
+  margin-top: 20px;
   background-color: #fdbd10 !important;
 }
 .timeline-badge.info {
@@ -954,7 +958,7 @@ ul.year li:nth-child(5){
 }
 .resp-tabs-container {
 	padding: 0px;
-	clear: left;	
+	clear: left;
 }
 h2.resp-accordion {
 	cursor: pointer;
@@ -985,7 +989,7 @@ button.close{
 	outline:none;
 }
 div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,div#portfolioModal5,div#portfolioModal6,div#portfolioModal7,div#portfolioModal8,div#portfolioModal9,div#portfolioModal10 {
-   
+
    background: rgba(0, 0, 0, 0.55);
 }
 .team-gd img {
@@ -1162,8 +1166,8 @@ ul.social-icons.two {
     border: 2px solid #00a78e;
 }
 .mail_right textarea {
-	height:200px; 
-	resize:none;	
+	height:200px;
+	resize:none;
 }
 .mail_right input[type="submit"] {
         border: none;
@@ -1227,7 +1231,7 @@ span.border.two:after {
 	list-style-type:none;
 	text-transform:uppercase;
 	display:inline-block;
-	margin:0 20px;	
+	margin:0 20px;
 }
 .footer_top ul {
     margin: 45px 0 45px;
@@ -1237,7 +1241,7 @@ span.border.two:after {
 .footer_top ul li a{
 	color:#B3B3B3;
 	text-decoration:none;
-	
+
 }
 /*-- //footer --*/
 .copy_right p {
@@ -1298,10 +1302,10 @@ span.border.two:after {
 		margin-top: -17px;
 		padding: 6px 0;
 	}
-	
+
 }
 @media(max-width:1280px){
-	
+
 	.thumb .team_pos {
 		bottom: -83px;
 		left: 0;
@@ -1411,7 +1415,7 @@ span.border.two:after {
 		margin-left: 7em;
 	}
 	#home {
-	   min-height: 563px;  
+	   min-height: 563px;
 	}
 	span.border {
       width: 29%;

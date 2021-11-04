@@ -51,7 +51,7 @@
     color: var(--color-text-subtle);
     top: 0px;
     padding-top: 10px;
-    height: 10%;
+    height: 5%;
     left: 0;
     width: 100%;
     text-align: center;
@@ -536,7 +536,7 @@ div.pullUpDown a:before, div.pullUpDown a:after
 div.pullUpDown a:before
 {
     top: 0px;
-} 
+}
 
 div.pullUpDown a:after
 {
@@ -564,7 +564,7 @@ div.pullRightLeft a:before, div.pullRightLeft a:after
 div.pullRightLeft a:before
 {
     left: 0px;
-} 
+}
 
 div.pullRightLeft a:after
 {
@@ -579,7 +579,7 @@ div.pullRightLeft a:hover:before, div.pullRightLeft a:hover:after
 /* Highlight text out  */
 div.highlightTextOut a
 {
-    color: rgba(255, 255, 255, 0.3); 
+    color: rgba(255, 255, 255, 0.3);
 }
 
 div.highlightTextOut a:before, div.highlightTextIn a:before
@@ -594,7 +594,7 @@ div.highlightTextOut a:before, div.highlightTextIn a:before
     transition: all 0.3s;
     transform: scale(0.8);
     opacity: 0;
-} 
+}
 
 div.highlightTextOut a:hover:before, div.highlightTextIn a:hover:before
 {
@@ -605,10 +605,10 @@ div.highlightTextOut a:hover:before, div.highlightTextIn a:hover:before
 /* Highlight text in  */
 div.highlightTextIn a
 {
-    color: rgba(0, 0, 0, 0.4); 
+    color: rgba(0, 0, 0, 0.4);
 }
 
 div.highlightTextIn a:before
 {
     transform: scale(1.2);
-} 
+}
